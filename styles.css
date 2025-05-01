@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial, sans-serif';
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: #ffffff; 
+  }
+  
+  .navbar {
+    background-color: #004439 !important; 
+  }
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #ffffff; 
+  }
+  
+  .card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #1a1a1a; 
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #ffffff; 
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px rgb(0, 112, 94); 
+  }
+  
+ 
+  .contact-form {
+    background-color: #00443900; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0);
+    color: #ffffff; 
+  }
+  
+  
+  .footer {
+    background-color: #004439; 
+    color: #ffffff; 
+    padding: 20px 0;
+  }
+  
+  
+  .button-primary {
+    background-color: #00ffd5; 
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-primary:hover {
+    background-color: #005a44; 
+  }
+  
+  
+  .link {
+    color: #006b48; 
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .link:hover {
+    color: #00fff2; 
+  }
+
+  .MuiTypography-root {
+    color: #000;
+  }
+  card {
+    background: #000;
+  }
+  
