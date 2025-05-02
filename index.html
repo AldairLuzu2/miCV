@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Curriculum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <div class="photo-container">
+                    <img src="img/foto.jpeg" alt="Mi foto" class="profile-photo" id="profilePhoto">
+                </div>
+                <div class="personal-info">
+                    <h1 id="nombre">Rubén Aldair Luzuriaga León</h1>
+                    <h2 id="titulo">Tecnologo en Desarrollo de Software</h2>
+                    <div class="contact-info">
+                        <p><i class="fas fa-envelope"></i> <span id="email">aldair.luzuriaga.l.istjba@gmail.com</span></p>
+                        <p><i class="fas fa-phone"></i> <span id="telefono">0967028623</span></p>
+                        <p><i class="fas fa-map-marker-alt"></i> <span id="direccion">Nobol-Guayas-Ecuador</span></p>
+                        <p><i class="fab fa-github"></i> <span id="github">https://github.com/AldairLuzu2</span></p>
+                        <p><i class="fab fa-linkedin"></i> <span id="linkedin">https://www.linkedin.com/in/aldair-luzuriaga-885b9b349/</span></p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section id="about">
+                <h2><i class="fas fa-user"></i> Sobre mí</h2>
+                <p id="descripcion">Breve descripción sobre ti, tus intereses y objetivos profesionales.</p>
+            </section>
+
+            <section id="education">
+                <h2><i class="fas fa-graduation-cap"></i> Estudios Realizados</h2>
+                <div class="timeline" id="estudios">
+                    
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2><i class="fas fa-code"></i> Lenguajes y Tecnologías</h2>
+                <div class="skills-container" id="habilidades">
+                   
+                </div>
+            </section>
+
+            <section id="projects">
+                <h2><i class="fas fa-project-diagram"></i> Proyectos Realizados</h2>
+                <div class="projects-container" id="proyectos">
+                    
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>© <span id="year"></span> - Mi Curriculum Vitae</p>
+            <button id="printBtn">Imprimir CV</button>
+            <button id="themeBtn">Cambiar Tema</button>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
